@@ -1,17 +1,17 @@
 <?php
-$nama = "Firdausa";
-$kelas = "xirpl2" ;
-
-function tampil_nama() {
-global $nama;
-echo "Nama Saya : ".$nama;
-}
-
-function tampil_kelas() {
-global $kelas;
+$a=1;
+echo $a++."<br/>";
+echo $a."<br/>";
+echo"<br>";
+$b=1;
+echo ++$b."<br/>";
+echo $b."<br/>";
 echo "<br>";
-echo "Nama Kelas : ".$kelas;
-}
-tampil_nama();
-tampil_kelas();
-?>   
+$c=2;
+echo $c--."<br/>";
+echo $c."<br/>";
+echo "<br>";
+$d = 2;
+echo --$d."<br/>";
+echo $d."<br/>";
+?>

@@ -1,14 +1,9 @@
-<html>
-<head> 
-	<title> Variabel antar Halaman </title> 
-</head> 
-<body> 
-	<form action = "variabel_hasil.php" method="post">  
-		Nama : <input type="text" name="nama"> 
-		<br>   
-		Email : <input type = "text" name ="email"> 
-		<br>  
-		<input type = "submit" name ="submit" value = "Tampilkan"> 
-	</form> 
-</body> 
-</html> 
+<?php
+$f=9;
+$k=4;
+if ($f == 9 && $k == 4){
+echo "<br><h1>Data benar</h1>";
+} else {
+echo "<br><h1> Data Salah</h1>";
+}
+?>
